@@ -1,0 +1,9 @@
+<app-bread [titulo]="titulo"></app-bread>
+<div class="container mt-4">
+  <ul class="list-group">
+    <li *ngFor="let location of personajesData">
+      {{ location.location.name }}
+    </li>
+  </ul>
+</div>
+<app-footer></app-footer>
